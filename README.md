@@ -55,7 +55,7 @@ nltk 的 `punkt_tab` 数据（`nltk.download('punkt_tab')`）若下载失败，�
 
 ## 三、数据准备
 
-1. 将作业提供的 `HW-1/nyt.csv`、`HW-1/ag.csv` 放在 `HW-1/` 目录（这两个文件未纳入仓库，需从课程渠道获取）。
+1. 将作业提供的 `HW-1/nyt.csv`、`HW-1/ag.csv` 放在 `HW-1/` 目录（这两个文件未纳入仓库，在课程群获取）。
 2. **GloVe 100 维词向量**：下载 `glove.6B.100d.txt` 放入 `HW-1/`。
    - 官方地址：<http://nlp.stanford.edu/data/glove.6B.zip>（解压后取 `glove.6B.100d.txt`）
    - 国内镜像示例：<https://hf-mirror.com/datasets/dodekVanBurak/glove6B100d/resolve/main/glove.6B.100d.txt>
@@ -71,7 +71,7 @@ python code/download_bert_files.py
 
 ## 四、运行实验
 
-在 `code/` 目录下执行（推荐；脚本内部按自身位置解析数据路径，从其他目录调用同样可行）：
+在 `code/` 目录下执行：
 
 ```bash
 cd code
