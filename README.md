@@ -40,7 +40,7 @@ Lab1/
 
 ## 二、环境要求
 
-- Python **3.12**（注意：gensim 目前没有 Python 3.14 的预编译 wheel，建议使用 3.12）
+- Python **3.12**
 - 依赖安装：
 
 ```bash
@@ -50,8 +50,6 @@ pip install -r code/requirements.txt
 依赖清单：`pandas`、`numpy`、`scikit-learn`、`nltk`、`gensim`、`torch`、`transformers`
 （另有 `matplotlib`，仅 `make_figure.py` 生成结果对比图时需要）。
 BERT 微调建议在有 NVIDIA GPU + CUDA 版 PyTorch 的环境运行（CPU 也可运行但较慢）。
-
-nltk 的 `punkt_tab` 数据（`nltk.download('punkt_tab')`）若下载失败，代码会自动回退到等价的正则分词，不影响运行。
 
 ## 三、数据准备
 
