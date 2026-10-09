@@ -1,0 +1,6 @@
+{
+  "accuracy": 0.9852430555555556,
+  "macro_f1": 0.9637338468849675,
+  "method": "Word2Vec (AG News) 100d + LR",
+  "best_C": 1.0
+}

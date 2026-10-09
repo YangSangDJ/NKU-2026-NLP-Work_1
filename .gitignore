@@ -1,0 +1,41 @@
+# ============================================================
+# 作业一：文本分类实现 —— Git 忽略规则
+#
+# 被忽略的文件都体积大、且可重新获取或可确定性重新生成，
+# 其中两个还超过 GitHub 单文件 100 MB 上限：
+#   HW-1/glove.6B.100d.txt                        约 331 MB
+#   code/artifacts/bert-base-uncased/*.safetensors 约 420 MB
+# 获取 / 生成方式见 README.md「二、环境要求」「三、数据准备」。
+# ============================================================
+
+# --- 课程提供的数据集（体积大，请从课程渠道获取）---
+HW-1/*.csv
+
+# --- 需自行下载的预训练词向量（超过 GitHub 单文件上限）---
+HW-1/glove.6B.*.txt
+HW-1/glove.6B.zip
+
+# --- 预训练权重与训练缓存（可重新下载 / 重新训练）---
+code/artifacts/
+
+# --- 可确定性重新生成的中间产物（种子固定，见 common.py）---
+code/split/
+
+# --- Python ---
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+
+# --- 报告 LaTeX 源码与配图（仅本地产物；仓库只提交编译好的 PDF 报告）---
+Report/
+
+# --- 操作系统 / 编辑器 ---
+.DS_Store
+Thumbs.db
+desktop.ini
+.vscode/
+.idea/
+*.swp
+~$*

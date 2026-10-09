@@ -1,0 +1,7 @@
+{
+  "accuracy": 0.9895833333333334,
+  "macro_f1": 0.9742601086908138,
+  "method": "Word Frequency",
+  "best_C": 0.1,
+  "vocab_size": 57535
+}

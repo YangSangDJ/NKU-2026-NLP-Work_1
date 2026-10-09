@@ -1,0 +1,7 @@
+{
+  "accuracy": 0.9887152777777778,
+  "macro_f1": 0.972722699764442,
+  "method": "Binary Bag of Words",
+  "best_C": 0.1,
+  "vocab_size": 57535
+}

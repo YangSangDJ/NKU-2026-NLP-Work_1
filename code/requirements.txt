@@ -1,0 +1,11 @@
+# 作业一：文本分类实现 —— 运行依赖
+# 说明：gensim 目前没有 Python 3.14 的预编译 wheel，
+#       建议使用 Python 3.12 环境运行（详见 README.md）。
+pandas>=2.0
+numpy>=1.26
+scikit-learn>=1.4
+nltk>=3.8
+gensim>=4.3
+torch>=2.1
+transformers>=4.40
+matplotlib>=3.7      # 仅 make_figure.py 生成结果对比图时需要

@@ -1,0 +1,10 @@
+{
+  "accuracy": 0.9817708333333334,
+  "macro_f1": 0.9611918683430686,
+  "method": "BERT-base-uncased fine-tuning",
+  "model": "google-bert/bert-base-uncased",
+  "max_length": 64,
+  "epochs": 3,
+  "batch_size": 32,
+  "lr": 2e-05
+}
